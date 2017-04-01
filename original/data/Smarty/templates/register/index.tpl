@@ -2,7 +2,7 @@
 <form action="{$HTML}register/confirm.php" method="post">
             <div class="touroku-form">
                 <div class="touroku-title">
-                    <h1 style="color:#484848;padding:18px 0 0 10px;">新規会員登録フォーム</h1>
+                    <h1>新規会員登録フォーム</h1>
                 </div>
                 <div class="touroku-area">
                         <table>

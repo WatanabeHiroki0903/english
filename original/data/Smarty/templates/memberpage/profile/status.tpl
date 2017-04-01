@@ -3,10 +3,10 @@
         <div class="main_profile">
             <div class="main_profile_block">
                 <div class="profile_title">
-                    <h1 style="color:#484848;padding:18px 0 0 10px;">ステータス</h1>
+                    <h1>ステータス</h1>
                 </div>
                 <div class="profile_content">
-                    <div class="touroku-area">
+                    <div class="profile-table">
                         <table>
                             <tr>
                                 <td>名</td>
@@ -56,7 +56,6 @@
                 </div>
                 </div>
             </div>
-            <button class="edit-button">変更する</button>
         </div>
     </div>
 <div class="footer-space"></div>

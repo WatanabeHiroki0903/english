@@ -1,9 +1,9 @@
-<?php /* Smarty version 2.6.30, created on 2017-04-01 12:47:40
+<?php /* Smarty version 2.6.30, created on 2017-04-01 19:09:14
          compiled from C:%5Cxampp%5Chtdocs%5Cdemo_site%5Coriginal%5Cdata%5CSmarty%5Ctemplates%5Cregister%5Cconfirm.tpl */ ?>
 <div class="register-area">
  <div class="touroku-form">
                 <div class="touroku-title">
-                    <h1 style="color:#484848;padding:18px 0 0 10px;">ご登録内容確認</h1>
+                    <h1>ご登録内容確認</h1>
                 </div>
                 <div class="touroku-area">
                         <table>

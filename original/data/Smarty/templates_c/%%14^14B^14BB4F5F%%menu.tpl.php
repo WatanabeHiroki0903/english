@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-04-01 17:28:07
+<?php /* Smarty version 2.6.30, created on 2017-04-01 18:18:17
          compiled from C:%5Cxampp%5Chtdocs%5Cdemo_site%5Coriginal%5Cdata%5CSmarty%5Ctemplates/menu.tpl */ ?>
 <header class="l-header">
     <div class="l-header-inner clearfix">
@@ -12,15 +12,15 @@ index.php">
         <nav class="header-nav">
             <ul>
                 <li><a href="<?php echo $this->_tpl_vars['HTML']; ?>
-register/index.php" title="">SIGN UP</a></li>
+register/index.php" title=""><span class="glyphicon glyphicon-pencil"></span>SIGN UP</a></li>
                 <li><a href="<?php echo $this->_tpl_vars['HTML']; ?>
-index.php#login-form" title="">SIGN IN</a></li>
+index.php#login-form" title=""><span class="glyphicon glyphicon-ok"></span>SIGN IN</a></li>
                 <li><a href="<?php echo $this->_tpl_vars['HTML']; ?>
-index.php#top-about" title="">ABOUT</a></li>
+index.php#top-about" title=""><span class="glyphicon glyphicon-zoom-in"></span>ABOUT</a></li>
                 <li><a href="<?php echo $this->_tpl_vars['HTML']; ?>
-index.php#course" title="">COURSE</a></li>
+index.php#course" title=""><span class="glyphicon glyphicon-road"></span>COURSE</a></li>
                 <li><a href="<?php echo $this->_tpl_vars['HTML']; ?>
-index.php#about" title="">CONTACT</a></li>
+index.php#about" title=""><span class="glyphicon glyphicon-envelope"></span>CONTACT</a></li>
             </ul>
         </nav>
     </div>

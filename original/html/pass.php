@@ -6,4 +6,5 @@ const SHTML = 'C:\xampp\htdocs\demo_site\original\html\\';
 const PCSS = '/demo_site/original/data/css/';
 const PJS = '/demo_site/original/data/js/';
 const PIMAGES = '/demo_site/original/data/images/';
+const BOOTSTRAP = '/demo_site/original/data/bootstrap/';
 const PHTML = '/demo_site/original/html/';

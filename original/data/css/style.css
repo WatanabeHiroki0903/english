@@ -60,8 +60,8 @@ body{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:10
 .l-header .l-header-inner .header-nav-border{display:none}
 .l-header .l-header-inner .header-nav{display:inline-block;float:right;margin-top:16px}
 .l-header .l-header-inner .header-nav>ul li{display:inline-block;padding-left:30px;font-size:15px;  font-family:"Hiragino Kaku Gothic ProN", Meiryo, sans-serif;}
-.l-header .l-header-inner .header-nav>ul li a{color:#343434;padding-bottom:5px;-webkit-transition:border-bottom 0.35s ease-out;transition:border-bottom 0.35s ease-out;border-bottom:3px solid #fff;font-weight:600}
-.l-header .l-header-inner .header-nav>ul li a:hover{border-bottom:3px solid #ffff00}
+.l-header .l-header-inner .header-nav>ul li a{color:#343434;padding:5px;-webkit-transition:background-color 0.35s ease-out;transition:background-color 0.35s ease-out;border-bottom:3px solid #fff;font-weight:600}
+.l-header .l-header-inner .header-nav>ul li a:hover{padding:5px;color:white; background-color:#ff5a5f; border-radius:3px; text-decoration:none;}
 .l-header .l-header-inner .header-language-button{float:right;margin-left:20px}
 .l-header .l-header-inner .header-language-button .btn-language{display:inline-block;position:relative;top:12px}
 .l-header .l-header-inner .header-language-button .btn-language a{border:0px}
@@ -277,7 +277,7 @@ a:hover{color:#fc8c94}
 .touroku-button:hover, .confirm-button:hover, .login-button:hover{opacity:0.7; cursor:pointer;}
 .confirm-button{margin:10px 0 0 10px; padding:15px; background-color:#ff5a5f; color:white; border-radius:3px;}
 .login-form input[type="text"], .login-form input[type="password"]{background-color:white; margin:5px; border-radius:2px; border:1px solid #aaa; width:300px; height:30px; color:black;}
-.login-button{margin-top:10px; padding:5px 15px; background-color:#ff5a5f; color:white; border-radius:3px;}
+.login-button{margin-top:10px; padding:5px 30px; background-color:#ff5a5f; color:white; border-radius:3px; font-size:15px;}
 .about-form{margin:0 auto;}
 .about-form td:nth-child(3){vertical-align:top;}
 .about-button{margin:15px 0 0 325px; padding:5px 15px; background-color:#ff5a5f; color:white; border-radius:3px;}
@@ -286,12 +286,12 @@ a:hover{color:#fc8c94}
 .header-logo img{width:30px; height:30px;}
 
 .profile_area{overflow:hidden;}
-.left_profile{float:left; width:290px; clear:both;}
-.left_profile img{margin:10px 100px; border:1px solid black; border-radius:50%;}
+.left_profile{float:left; width:290px; clear:both;text-align:center;}
+.left_profile img{margin:10px auto; border:1px solid black;}
 .left_profile_menu{clear:both;}
-.main_profile{margin-left:300px; width:800px;}
+.main_profile{margin-left:300px; width:800px;text-align:center;}
 .main_profile_block{border-radius:2px; border:1px solid #dce0e0; width:100%;}
-.profile_title{background-color:#edefed; margin:0; height:50px; width:100%; border:1px solid #dce0e0;}
+.profile_title{background-color:#edefed; margin:0; height:50px; width:100%; border:1px solid #dce0e0;text-align:left;}
 .profile_content{margin:0;width:100%;}
 .register-area{padding-top:80px;}
 .prof-img{height:30px; width:30px; border-radius:50%; border:1px solid black; background-color:blue; padding:10px;}
@@ -299,12 +299,32 @@ a:hover{color:#fc8c94}
 .edit-button{padding:10px 30px; margin-top:30px; background-color:#ff5a5f; color:white; border-radius:2px;}
 .edit-button:hover{cursor:pointer;opacity:0.8;}
 .about-index{background-color:#f0f0f0; width:100%; height:800px; padding-top:70px;}
-.about-index-area{background-color:white; margin:50px auto; width:800px;padding:30px;}
+.about-index-area{background-color:white; margin:50px auto; width:800px;padding:30px;text-align:center;}
 .about-index-area h1{text-align:center; color:black; font-size:30px;vertical-align:middle;}
-.about-index-title{margin:30px auto;height:50px;font-family: Impact,Charcoal;}
+.about-index-title{margin:30px auto;height:50px;font-family: Impact,Charcoal; }
+.about-index-title h1{font-weight:bold;}
 .about-subtitle{font-size:20px; color:#ff5a5f; margin:30px 0;}
 .about-subcontent{text-align:center;}
 .about-index .about-button-area{text-align:center;}
 .about-index .about-index-button{color:white; background-color:#ff5a5f; border-radius:3px; padding:10px 30px;}
 .about-index .about-index-button:hover{cursor:pointer; opacity:0.7;}
+.glyphicon{margin:0 5px 0 0 ;}
+.touroku-title h1, .profile_title h1{font-size:20px; vertical-align:middle;margin:15px;}
+.profile-table td:nth-child(1){line-height:20px;text-align:right; font-size:15px;width:150px;}
+.profile-table td:nth-child(2){width:30px;}
+.profile-table td:nth-child(3){line-height:20px; text-align:left; font-size:15px;}
+.profile-table td{padding:15px;}
+.main_profile input[type="submit"]{color:white; background-color:#ff5a5f;border-radius:3px;padding:10px 30px; margin:10px auto;text-align:center;}
+.main_profile input[type="submit"]:hover{cursor:pointer;opacity:0.8;}
+.forgotten-content{width:600px; margin:0 auto; text-align:center;}
+.forgotten-content td:nth-child(1){text-align:right;padding:15px 15px;}
+.forgotten-content td:nth-child(2){text-align:left;padding:15px 0;}
+.forgotten-content input[type="text"]{border:1px solid #aaa; width:400px; height:30px; border-radius:3px;}
+.forgotten-content select{border:1px solid #aaa; width:100px; height:30px; border-radius:3px;}
+.forgotten-content input[type="submit"]{padding:10px 30px; background-color:#ff5a5f;border-radius:3px; color:white;margin:10px auto;}
+.forgotten-content input[type="submit"]:hover{opacity:0.8;cursor:pointer:;}
+.notice-content{color:red;text-align:center;font-size:16px;}
+.left_profile_menu a{display:inline-block;padding:5px;}
+.chPhoto{background-color:#40e0d0;padding:5px 10px; margin:5px;border-radius:3px;color:white;}
+.chPhoto:hover{opacity:0.8;cursor:pointer;}
 /*# sourceMappingURL=maps/style.css.map */

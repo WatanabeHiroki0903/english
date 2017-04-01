@@ -11,9 +11,10 @@
                     <div class="download-button">
                             <div class="download-android login-form">
                                 <form action="{$HTML}memberpage/index.php" method="post">
-                                    <input type="text" name="uid" placeholder="ユーザー名またはメールアドレス"><br>
-                                    <input type="password" name="password" placeholder="パスワード"><br>
-                                    <input type="submit" value="login" class="login-button">
+                                    <input type="text" name="uid" placeholder="user id or e-mail address"><br>
+                                    <input type="password" name="password" placeholder="password"><br>
+                                    <a href="{$HTML}forgotten/index.php">パスワードを忘れた方はこちら</a><br>
+                                    <input type="submit" value="Sign In" class="login-button">
                                 </form>
                             </div>
                     </div>

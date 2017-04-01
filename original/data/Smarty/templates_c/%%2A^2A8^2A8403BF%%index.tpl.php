@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-04-01 14:46:40
+<?php /* Smarty version 2.6.30, created on 2017-04-01 19:42:22
          compiled from C:%5Cxampp%5Chtdocs%5Cdemo_site%5Coriginal%5Cdata%5CSmarty%5Ctemplates%5Cmemberpage%5Cprofile%5Cindex.tpl */ ?>
     <div class="profile_area">
         <?php $_smarty_tpl_vars = $this->_tpl_vars;
@@ -9,10 +9,10 @@ unset($_smarty_tpl_vars);
         <div class="main_profile">
             <div class="main_profile_block">
                 <div class="profile_title">
-                    <h1 style="color:#484848;padding:18px 0 0 10px;">基本情報</h1>
+                    <h1>基本情報</h1>
                 </div>
                 <div class="profile_content">
-                    <div class="touroku-area">
+                    <div class="profile-table">
                         <table>
                             <tr>
                                 <td>名</td>
@@ -62,7 +62,8 @@ unset($_smarty_tpl_vars);
                 </div>
                 </div>
             </div>
-            <button class="edit-button">変更する</button>
+            <button class="edit-button" onclick="location.href='<?php echo $this->_tpl_vars['HTML']; ?>
+memberpage/profile/edit.php'">変更する</button>
         </div>
     </div>
         <div class="footer-space"></div>

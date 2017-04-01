@@ -1,11 +1,11 @@
-<?php /* Smarty version 2.6.30, created on 2017-04-01 14:40:57
+<?php /* Smarty version 2.6.30, created on 2017-04-01 18:29:27
          compiled from C:%5Cxampp%5Chtdocs%5Cdemo_site%5Coriginal%5Cdata%5CSmarty%5Ctemplates%5Cregister%5Cindex.tpl */ ?>
 <div class="register-area">
 <form action="<?php echo $this->_tpl_vars['HTML']; ?>
 register/confirm.php" method="post">
             <div class="touroku-form">
                 <div class="touroku-title">
-                    <h1 style="color:#484848;padding:18px 0 0 10px;">新規会員登録フォーム</h1>
+                    <h1>新規会員登録フォーム</h1>
                 </div>
                 <div class="touroku-area">
                         <table>

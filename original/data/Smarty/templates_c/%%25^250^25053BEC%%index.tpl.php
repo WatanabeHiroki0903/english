@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.30, created on 2017-04-01 17:40:28
+<?php /* Smarty version 2.6.30, created on 2017-04-01 20:41:41
          compiled from C:%5Cxampp%5Chtdocs%5Cdemo_site%5Coriginal%5Cdata%5CSmarty%5Ctemplates%5Cindex.tpl */ ?>
 <main class="l-all-contents">
         <div id="login-form" class="top-mainvisual clearfix">
@@ -14,9 +14,11 @@
                             <div class="download-android login-form">
                                 <form action="<?php echo $this->_tpl_vars['HTML']; ?>
 memberpage/index.php" method="post">
-                                    <input type="text" name="uid" placeholder="ユーザー名またはメールアドレス"><br>
-                                    <input type="password" name="password" placeholder="パスワード"><br>
-                                    <input type="submit" value="login" class="login-button">
+                                    <input type="text" name="uid" placeholder="user id or e-mail address"><br>
+                                    <input type="password" name="password" placeholder="password"><br>
+                                    <a href="<?php echo $this->_tpl_vars['HTML']; ?>
+forgotten/index.php">パスワードを忘れた方はこちら</a><br>
+                                    <input type="submit" value="Sign In" class="login-button">
                                 </form>
                             </div>
                     </div>
