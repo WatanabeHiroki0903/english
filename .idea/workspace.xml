@@ -1,7 +1,183 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c612af01-ec69-459c-8881-db46762c94ef" name="Default" comment="" />
+    <list default="true" id="c612af01-ec69-459c-8881-db46762c94ef" name="Default" comment="mac対応　英語と日本語ファイルの追加　パスの効率化">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/about/complete.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/about/index.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/footer.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/forgotten/complete.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/forgotten/index.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/header.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/index.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/memberpage/friends/index.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/memberpage/help/index.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/memberpage/index.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/memberpage/message/index.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/memberpage/profile/alubum.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/memberpage/profile/edit.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/memberpage/profile/index.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/memberpage/profile/left.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/memberpage/profile/profile.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/memberpage/profile/status.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/menu.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/menu2.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/register/complete.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/register/confirm.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/data/Smarty/templates/register/index.tpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/about/complete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/about/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/forgotten/complete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/forgotten/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/memberpage/friends/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/memberpage/help/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/memberpage/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/memberpage/message/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/memberpage/profile/alubum.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/memberpage/profile/edit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/memberpage/profile/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/memberpage/profile/profile.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/memberpage/profile/status.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/pass.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/register/complete.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/register/confirm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/register/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/require_first.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/require_first2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/original/html/require_last.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flamingo/images/gettyimages_548556715.jpg" afterPath="$PROJECT_DIR$/flamingo/images/gettyimages_548556715.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flamingo/images/images.png" afterPath="$PROJECT_DIR$/flamingo/images/images.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/original/data/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/original/data/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/original/data/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/original/data/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/images/gettyimages_548556715.jpg" afterPath="$PROJECT_DIR$/original/data/images/gettyimages_548556715.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/demo_site.iml" afterPath="$PROJECT_DIR$/.idea/demo_site.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flamingo/confirm.php" afterPath="$PROJECT_DIR$/flamingo/confirm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flamingo/css/style.css" afterPath="$PROJECT_DIR$/flamingo/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flamingo/index.php" afterPath="$PROJECT_DIR$/flamingo/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flamingo/layout/_layout.scss" afterPath="$PROJECT_DIR$/flamingo/layout/_layout.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flamingo/memberpage/help.php" afterPath="$PROJECT_DIR$/flamingo/memberpage/help.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flamingo/memberpage/index.php" afterPath="$PROJECT_DIR$/flamingo/memberpage/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flamingo/memberpage/message.php" afterPath="$PROJECT_DIR$/flamingo/memberpage/message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flamingo/memberpage/profile/index.php" afterPath="$PROJECT_DIR$/flamingo/memberpage/profile/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flamingo/memberpage/profile/profile.php" afterPath="$PROJECT_DIR$/flamingo/memberpage/profile/profile.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flamingo/touroku/complete.php" afterPath="$PROJECT_DIR$/flamingo/touroku/complete.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flamingo/touroku/confirm.php" afterPath="$PROJECT_DIR$/flamingo/touroku/confirm.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flamingo/touroku/index.php" afterPath="$PROJECT_DIR$/flamingo/touroku/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/Config_File.class.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/Config_File.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/Smarty.class.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/Smarty.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/Smarty_Compiler.class.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/Smarty_Compiler.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/debug.tpl" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/debug.tpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.assemble_plugin_filepath.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.assemble_plugin_filepath.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.assign_smarty_interface.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.assign_smarty_interface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.create_dir_structure.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.create_dir_structure.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.display_debug_console.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.display_debug_console.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.get_include_path.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.get_include_path.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.get_microtime.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.get_microtime.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.get_php_resource.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.get_php_resource.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.is_secure.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.is_secure.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.is_trusted.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.is_trusted.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.load_plugins.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.load_plugins.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.load_resource_plugin.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.load_resource_plugin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.process_cached_inserts.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.process_cached_inserts.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.process_compiled_include.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.process_compiled_include.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.read_cache_file.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.read_cache_file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.rm_auto.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.rm_auto.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.rmdir.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.rmdir.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.run_insert_handler.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.run_insert_handler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.smarty_include_php.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.smarty_include_php.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.write_cache_file.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.write_cache_file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.write_compiled_include.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.write_compiled_include.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.write_compiled_resource.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.write_compiled_resource.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.write_file.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/internals/core.write_file.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/block.textformat.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/block.textformat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/compiler.assign.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/compiler.assign.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.assign_debug_info.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.assign_debug_info.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.config_load.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.config_load.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.counter.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.counter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.cycle.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.cycle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.debug.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.debug.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.eval.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.eval.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.fetch.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.fetch.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.html_checkboxes.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.html_checkboxes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.html_image.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.html_image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.html_options.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.html_options.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.html_radios.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.html_radios.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.html_select_date.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.html_select_date.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.html_select_time.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.html_select_time.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.html_table.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.html_table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.mailto.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.mailto.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.math.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.math.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.popup.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.popup.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.popup_init.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/function.popup_init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.capitalize.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.capitalize.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.cat.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.cat.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.count_characters.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.count_characters.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.count_paragraphs.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.count_paragraphs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.count_sentences.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.count_sentences.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.count_words.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.count_words.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.date_format.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.date_format.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.debug_print_var.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.debug_print_var.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.default.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.escape.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.escape.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.indent.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.indent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.lower.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.lower.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.nl2br.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.nl2br.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.regex_replace.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.regex_replace.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.replace.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.replace.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.spacify.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.spacify.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.string_format.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.string_format.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.strip.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.strip.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.strip_tags.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.strip_tags.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.truncate.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.truncate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.upper.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.upper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.wordwrap.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/modifier.wordwrap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/outputfilter.trimwhitespace.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/outputfilter.trimwhitespace.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/shared.escape_special_chars.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/shared.escape_special_chars.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/shared.make_timestamp.php" afterPath="$PROJECT_DIR$/original/data/Smarty/libs/plugins/shared.make_timestamp.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%00^007^007100FA%%forgotten.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%00^007^007100FA%%forgotten.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%09^09A^09A3DE0F%%edit.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%09^09A^09A3DE0F%%edit.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%14^14B^14BB4F5F%%menu.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%14^14B^14BB4F5F%%menu.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%15^15D^15D96969%%index.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%15^15D^15D96969%%index.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%16^168^16841C39%%index.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%16^168^16841C39%%index.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%17^170^1702FED8%%index.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%17^170^1702FED8%%index.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%25^250^25053BEC%%index.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%25^250^25053BEC%%index.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%25^258^2589B04E%%footer.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%25^258^2589B04E%%footer.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%2A^2A8^2A8403BF%%index.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%2A^2A8^2A8403BF%%index.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%36^363^363209D8%%complete.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%36^363^363209D8%%complete.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%3C^3C5^3C55247A%%confirm.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%3C^3C5^3C55247A%%confirm.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%63^636^6366A4A9%%alubum.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%63^636^6366A4A9%%alubum.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%74^740^740AAAD3%%status.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%74^740^740AAAD3%%status.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%8D^8D1^8D185510%%menu2.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%8D^8D1^8D185510%%menu2.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%95^951^9514D091%%index.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%95^951^9514D091%%index.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%B6^B6A^B6AA0368%%complete.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%B6^B6A^B6AA0368%%complete.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%C8^C80^C80CFE37%%complete.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%C8^C80^C80CFE37%%complete.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%CA^CA1^CA10B83B%%index.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%CA^CA1^CA10B83B%%index.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%D3^D31^D31B8553%%profile.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%D3^D31^D31B8553%%profile.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%DC^DC3^DC3A849F%%header.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%DC^DC3^DC3A849F%%header.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%F9^F94^F946A2CD%%index.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%F9^F94^F946A2CD%%index.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%FC^FCA^FCA2ECF2%%index.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%FC^FCA^FCA2ECF2%%index.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%FD^FD8^FD8C24B5%%left.tpl.php" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/%%FD^FD8^FD8C24B5%%left.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/Smarty/templates_c/wrt703A.tmp" afterPath="$PROJECT_DIR$/original/data/Smarty/templates_c/wrt703A.tmp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/original/data/bootstrap/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/bootstrap/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/original/data/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/original/data/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/bootstrap/css/bootstrap-theme.min.css.map" afterPath="$PROJECT_DIR$/original/data/bootstrap/css/bootstrap-theme.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/original/data/bootstrap/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/original/data/bootstrap/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/original/data/bootstrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/bootstrap/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/original/data/bootstrap/css/bootstrap.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/original/data/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/original/data/bootstrap/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/bootstrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/original/data/bootstrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/bootstrap/js/npm.js" afterPath="$PROJECT_DIR$/original/data/bootstrap/js/npm.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/css/style.css" afterPath="$PROJECT_DIR$/original/data/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/original/data/js/script.js" afterPath="$PROJECT_DIR$/original/data/js/script.js" />
+    </list>
+    <list id="3d61d88a-7782-4953-a7e0-3549ec5e347b" name="cache" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,48 +193,119 @@
     <favorites_list name="demo_site" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="profile.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flamingo/memberpage/profile.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/html/jpn/memberpage/profile/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="759">
-              <caret line="100" column="41" lean-forward="true" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flamingo/css/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2890">
-              <caret line="289" column="19" lean-forward="false" selection-start-line="289" selection-start-column="19" selection-end-line="289" selection-end-column="19" />
+            <state relative-caret-position="126">
+              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flamingo/touroku/index.php">
+      <file leaf-file-name="profile.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/html/jpn/memberpage/profile/profile.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="28" />
-              <folding>
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#form#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="126">
+              <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.tpl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/profile/index.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/profile/profile.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="618">
+              <caret line="58" column="95" lean-forward="false" selection-start-line="58" selection-start-column="95" selection-end-line="58" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.tpl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/profile/edit.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-138">
+              <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$compi</find>
+      <find>background-image</find>
+      <find>gettyimages_548556715.jpg</find>
+      <find>top-mainvisual</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/flamingo/css/style.css" />
         <option value="$PROJECT_DIR$/flamingo/memberpage/profile.php" />
+        <option value="$PROJECT_DIR$/flamingo/touroku/index.php" />
+        <option value="$PROJECT_DIR$/original/html/index.php" />
+        <option value="$PROJECT_DIR$/original/html/require_last.php" />
+        <option value="$PROJECT_DIR$/original/html/require_first.php" />
+        <option value="$PROJECT_DIR$/original/data/Smarty/templates/header.tpl" />
+        <option value="$PROJECT_DIR$/original/data/css/style.css" />
+        <option value="$PROJECT_DIR$/original/html/sample.php" />
+        <option value="$PROJECT_DIR$/original/html/memberpage/help/index.php" />
+        <option value="$PROJECT_DIR$/original/html/pass.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/requireFirst.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/requireLast.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/requireTop.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/index.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/about/index.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/about/complete.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/forgotten/complete.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/forgotten/index.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/register/complete.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/register/confirm.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/register/index.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/memberpage/index.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/memberpage/friends/index.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/memberpage/message/index.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/memberpage/profile/alubum.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/memberpage/profile/edit.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/memberpage/profile/index.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/memberpage/profile/profile.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/memberpage/profile/status.php" />
+        <option value="$PROJECT_DIR$/original/html/path.inc" />
+        <option value="$PROJECT_DIR$/original/data/Smarty/templates/jpn/header.tpl" />
+        <option value="$PROJECT_DIR$/original/html/jpn/require.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/path.inc" />
+        <option value="$PROJECT_DIR$/original/data/Smarty/templates/jpn/about/index.tpl" />
+        <option value="$PROJECT_DIR$/original/data/Smarty/templates/jpn/menu2.tpl" />
+        <option value="$PROJECT_DIR$/original/data/Smarty/templates/jpn/menu.tpl" />
+        <option value="$PROJECT_DIR$/original/data/Smarty/templates/jpn/index.tpl" />
+        <option value="$PROJECT_DIR$/original/data/Smarty/templates/jpn/forgotten/index.tpl" />
+        <option value="$PROJECT_DIR$/original/data/Smarty/templates/jpn/register/index.tpl" />
+        <option value="$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/profile/edit.tpl" />
+        <option value="$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/profile/left.tpl" />
+        <option value="$PROJECT_DIR$/original/html/jpn/memberpage/requireMember.php" />
+        <option value="$PROJECT_DIR$/original/html/jpn/memberpage/help/index.php" />
+        <option value="$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/profile/profile.tpl" />
+        <option value="$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/profile/index.tpl" />
       </list>
     </option>
   </component>
@@ -70,9 +317,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-11" />
-    <option name="width" value="2564" />
-    <option name="height" value="1371" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -89,8 +335,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -102,18 +346,8 @@
               <option name="myItemId" value="demo_site" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="demo_site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo_site" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flamingo" />
+              <option name="myItemId" value="original" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -127,11 +361,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="flamingo" />
+              <option name="myItemId" value="original" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="touroku" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -145,7 +379,75 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="flamingo" />
+              <option name="myItemId" value="original" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smarty" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo_site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="original" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smarty" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo_site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="original" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smarty" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpn" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -163,60 +465,148 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="flamingo" />
+              <option name="myItemId" value="original" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smarty" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jpn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="memberpage" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="profile" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo_site" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="original" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smarty" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo_site" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="sam&#9;FILE&#9;file:///Users/watanabehiroki/myFolder/programing/mySite/demo_site/original/html/sample.php&#10;Smarty.class.php&#9;FILE&#9;file:///Users/watanabehiroki/myFolder/programing/mySite/demo_site/original/data/Smarty/libs/Smarty.class.php" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c612af01-ec69-459c-8881-db46762c94ef" name="Default" comment="" />
+      <changelist id="3d61d88a-7782-4953-a7e0-3549ec5e347b" name="cache" comment="" />
       <created>1490854815225</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490854815225</updated>
       <workItem from="1490854826069" duration="2121000" />
+      <workItem from="1491636376349" duration="4341000" />
+      <workItem from="1491641494317" duration="10728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2121000" />
+    <option name="totallyTimeSpent" value="17190000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="0" width="2564" height="1371" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24980299" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
@@ -224,44 +614,420 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="mac対応　英語と日本語ファイルの追加　パスの効率化" />
+    <option name="LAST_COMMIT_MESSAGE" value="mac対応　英語と日本語ファイルの追加　パスの効率化" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/flamingo/index.php">
+    <entry file="file://$PROJECT_DIR$/original/html/sample.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4422">
+        <state relative-caret-position="54">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/pass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/requireFirst.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="38" lean-forward="false" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="92" column="15" lean-forward="false" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/requireFirst2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flamingo/css/style.css">
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/requireTop.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2890">
-          <caret line="289" column="19" lean-forward="false" selection-start-line="289" selection-start-column="19" selection-end-line="289" selection-end-column="19" />
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flamingo/touroku/index.php">
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/requireLast.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="86" column="28" lean-forward="true" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="28" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#form#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="126">
+          <caret line="7" column="43" lean-forward="false" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flamingo/memberpage/profile.php">
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="100" column="41" lean-forward="true" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#1;n#div#0;n#main#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="72">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/about/complete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/forgotten/complete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/forgotten/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/register/complete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/register/confirm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/register/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/about/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/memberpage/friends/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/memberpage/message/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="30" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/memberpage/profile/alubum.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/memberpage/profile/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/memberpage/profile/status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/footer.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/menu.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/menu2.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/about/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="44" lean-forward="false" selection-start-line="1" selection-start-column="44" selection-end-line="1" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/about/complete.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/forgotten/complete.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/forgotten/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/register/complete.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/register/confirm.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/register/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-840">
+          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/friends/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/help/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/message/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/profile/alubum.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/profile/left.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="56" lean-forward="false" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/profile/status.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-408">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/path.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/path.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/memberpage/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/require.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/memberpage/requireMember.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/memberpage/help/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/memberpage/profile/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/html/jpn/memberpage/profile/profile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/profile/profile.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="618">
+          <caret line="58" column="95" lean-forward="false" selection-start-line="58" selection-start-column="95" selection-end-line="58" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/profile/edit.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-138">
+          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/original/data/Smarty/templates/jpn/memberpage/profile/index.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="42" column="18" lean-forward="false" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
