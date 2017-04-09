@@ -9,20 +9,20 @@
                             <tr>
                                 <td>名</td>
                                 <td></td>
-                                <td><input type="text" name="firstname" placeholder="Taro"></td>
+                                <td><input type="text" name="firstName" placeholder="Taro"></td>
                             </tr>
                             <tr>
                                 <td>姓</td>
                                 <td></td>
-                                <td><input type="text" name="lastname" placeholder="Yamada"></td>
+                                <td><input type="text" name="lastName" placeholder="Yamada"></td>
                             </tr>
                             <tr>
                                 <td>性別</td>
                                 <td></td>
                                 <td><select name="sex">
-                                    <option value="man">男性</option>
-                                    <option value="woman">女性</option>
-                                    <option value="other">その他</option>
+                                        {foreach from=$sexList item="value" key="key"}
+                                            <option value="{$key}">{$value}</option>
+                                        {/foreach}
                                 </select></td>
                             </tr>
                             <tr>
@@ -30,16 +30,19 @@
                                 <td></td>
                                 <td>
                                     <select name="year">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
+                                        {foreach from=$yearList item="value"}
+                                            <option value="{$value}">{$value}</option>
+                                        {/foreach}
                                     </select>年
                                     <select name="month">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
+                                        {foreach from=$monthList item="value"}
+                                            <option value="{$value}">{$value}</option>
+                                        {/foreach}
                                     </select>月
                                     <select name="day">
-                                        <option value="1">1</option>
-                                        <option value="2">2</option>
+                                        {foreach from=$dayList item="value"}
+                                            <option value="{$value}">{$value}</option>
+                                        {/foreach}
                                     </select>日
                                 </td>
                             </tr>
@@ -66,15 +69,19 @@
                             <tr>
                                 <td>登録コース</td>
                                 <td></td>
-                                <td><input type="radio" name="course" value="basic" checked>ベーシック会員(無料)
-                                    <input style="margin-left:30px;" type="radio" name="course" value="premium">プレミアム会員(月額980円)
+                                <td>
+                                    {foreach from=$memberCourseList item="value" key="key"}
+                                        <input type="radio" name="course" value="{$key}">{$value}
+                                    {/foreach}
                                 </td>
                             </tr>
                             <tr>
                                 <td>支払い方法</td>
                                 <td></td>
-                                <td><input type="radio" name="howtopay" value="credit">クレジットカード
-                                    <input type="radio" name="howtopay" value="phone">ケータイ料金まとめて支払い
+                                <td>
+                                    {foreach from=$payList item="value" key="key"}
+                                        <input type="radio" name="howtopay" value="{$key}">{$value}
+                                    {/foreach}
                                 </td>
                             </tr>
                         </table>

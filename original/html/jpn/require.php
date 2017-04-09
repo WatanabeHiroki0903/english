@@ -10,7 +10,9 @@ $smarty->template_dir = _SMARTY_PATH.'templates';
 $smarty->compile_dir  = _SMARTY_PATH.'templates_c';
 
 $smarty->assign('_FT_CSS_PATH',                    _FT_CSS_PATH);
-$smarty->assign('_FT_IMAGES_PATH',                 _FT_IMAGES_PATH);
+$smarty->assign('_FT_IMAGES_LAYOUT_PATH',          _FT_IMAGES_LAYOUT_PATH);
+$smarty->assign('_FT_ALUBUM_ENG_PATH',             _FT_ALUBUM_ENG_PATH);
+$smarty->assign('_FT_ALUBUM_JPN_PATH',             _FT_ALUBUM_JPN_PATH);
 $smarty->assign('_FT_JS_PATH',                     _FT_JS_PATH);
 $smarty->assign('_FT_BOOTSTRAP_PATH',              _FT_BOOTSTRAP_PATH);
 
