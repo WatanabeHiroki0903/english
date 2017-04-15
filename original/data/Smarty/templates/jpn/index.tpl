@@ -10,10 +10,10 @@
                     </h2>
                     <div class="download-button">
                             <div class="download-android login-form">
-                                <form action="{$_FT_HTML_JPN_MEMBERPAGE_PATH}index.php" method="post">
+                                <form action="{$smarty.const._FT_HTML_JPN_MEMBERPAGE_PATH}index.php" method="post">
                                     <input type="text" name="uid" placeholder="user id or e-mail address"><br>
                                     <input type="password" name="password" placeholder="password"><br>
-                                    <a href="{$_FT_HTML_JPN_FORGOTTEN_PATH}index.php">パスワードを忘れた方はこちら</a><br>
+                                    <a href="{$smarty.const._FT_HTML_JPN_FORGOTTEN_PATH}index.php">パスワードを忘れた方はこちら</a><br>
                                     <input type="submit" value="Sign In" class="login-button">
                                 </form>
                             </div>
@@ -65,7 +65,7 @@
             <div class="content-inner-faq">
                 <div class="top-faq-border">
                     <h3 class="content-title">お問い合わせ</h3>
-                    <form action="{$_FT_HTML_JPN_ABOUT_PATH}index.php" method="post">
+                    <form action="{$smarty.const._FT_HTML_JPN_ABOUT_PATH}index.php" method="post">
                         <table name="about-form" class="about-form">
                             <tr>
                                 <td>お名前</td>

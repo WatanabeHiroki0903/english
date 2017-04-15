@@ -1,14 +1,5 @@
 <?php
 
-const SSMARTY = '/vagrant/demo_site/original/data/Smarty/';
-const SDATA = '/vagrant/demo_site/original/data/';
-const SHTML = '/vagrant/demo_site/original/html/';
-const PCSS = 'http://demo_site/original/data/css/';
-const PJS = 'http://demo_site/original/data/js/';
-const PIMAGES = 'http://demo_site/original/data/images/';
-const BOOTSTRAP = 'http://demo_site/original/data/bootstrap/';
-const PHTML = 'http://demo_site/original/html/';
-
 define('_HTML_JPN_PATH',                   _HTML_PATH.'jpn/');
 
 define('_HTML_JPN_REGISTER_PATH',          _HTML_JPN_PATH.'register/');

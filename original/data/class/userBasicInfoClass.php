@@ -12,6 +12,17 @@ class UserBasicInfoClass{
     const PAY_CREDIT   = 1;
     const PAY_PHONE    = 2;
 
+    const FIRST_NAME          = '名';
+    const LAST_NAME           = '姓';
+    const SEX                 = '性別';
+    const BIRTHDAY            = '生年月日';
+    const MAIL_ADDRESS        = 'メールアドレス';
+    const MAIL_ADDRESS_AGAIN  = 'メールアドレス(確認用)';
+    const USER_ID             = 'ユーザーID';
+    const PASSWORD            = 'パスワード';
+    const PASSWORD_AGAIN      = 'パスワード(確認用)';
+    const MEMBER_COURSE       = '登録コース';
+    const HOW_TO_PAY          = 'お支払い方法';
 
 
 
@@ -47,15 +58,40 @@ class UserBasicInfoClass{
     }
 
     public static function getYearList(){
-        return 'ff';
+
+        $yearList   = array();
+        $yearList[] = '----';
+        $thisYear = date('Y');
+
+        for($i = $thisYear; $i>1950; $i--){
+            $yearList[] = $i;
+        }
+
+        return $yearList;
     }
 
     public static function getMonthList(){
-        return 'ff';
+
+        $monthList   = array();
+        $monthList[] = '--';
+
+        for($i=1; $i<13; $i++){
+            $monthList[] = $i;
+        }
+
+        return $monthList;
     }
 
     public static function getDayList(){
-        return 'ff';
+
+        $dayList   = array();
+        $dayList[] = '--';
+
+        for($i=1; $i<32; $i++){
+            $dayList[] = $i;
+        }
+
+        return $dayList;
     }
 
 }

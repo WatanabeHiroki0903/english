@@ -56,7 +56,7 @@
                 </div>
                 </div>
             </div>
-            <button class="edit-button" onclick="location.href='{$_FT_HTML_JPN_MEMBERPAGE_PATH}profile/edit.php'">変更する</button>
+            <button class="edit-button" onclick="location.href='{$smarty.const._FT_HTML_JPN_MEMBERPAGE_PATH}profile/edit.php'">変更する</button>
         </div>
     </div>
         <div class="footer-space"></div>

@@ -1,11 +1,11 @@
 <div class="about-index">
-	<form action="{$_FT_HTML_JPN_ABOUT_PATH}complete.php" method="post">
+	<form action="{$smarty.const._FT_HTML_JPN_ABOUT_PATH}complete.php" method="post">
 		<div class="about-index-area">
 			<div class="about-index-title">
 				<h1>以下の内容でお問い合わせを送信します。</h1>
 			</div>
 			<div class="about-index-content">
-				<form action="{$_FT_HTML_JPN_ABOUT_PATH}complete.php" method="post">
+				<form action="{$smarty.const._FT_HTML_JPN_ABOUT_PATH}complete.php" method="post">
 				<p class="about-subtitle">お名前</p>
 				<p class="about-subcontent">afklsfsafs</p>
 				<p class="about-subtitle">メールアドレス</p>

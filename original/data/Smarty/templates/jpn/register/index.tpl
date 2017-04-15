@@ -1,5 +1,5 @@
 <div class="register-area">
-<form action="{$_FT_HTML_JPN_REGISTER_PATH}confirm.php" method="post">
+<form action="{$smarty.const._FT_HTML_JPN_REGISTER_PATH}confirm.php" method="post">
             <div class="touroku-form">
                 <div class="touroku-title">
                     <h1>新規会員登録フォーム</h1>
@@ -7,17 +7,17 @@
                 <div class="touroku-area">
                         <table>
                             <tr>
-                                <td>名</td>
+                                <td>{"UserBasicInfoClass::FIRST_NAME"|constant}</td>
                                 <td></td>
                                 <td><input type="text" name="firstName" placeholder="Taro"></td>
                             </tr>
                             <tr>
-                                <td>姓</td>
+                                <td>{"UserBasicInfoClass::LAST_NAME"|constant}</td>
                                 <td></td>
                                 <td><input type="text" name="lastName" placeholder="Yamada"></td>
                             </tr>
                             <tr>
-                                <td>性別</td>
+                                <td>{"UserBasicInfoClass::SEX"|constant}</td>
                                 <td></td>
                                 <td><select name="sex">
                                         {foreach from=$sexList item="value" key="key"}
@@ -26,7 +26,7 @@
                                 </select></td>
                             </tr>
                             <tr>
-                                <td>生年月日</td>
+                                <td>{"UserBasicInfoClass::BIRTHDAY"|constant}</td>
                                 <td></td>
                                 <td>
                                     <select name="year">
@@ -47,27 +47,32 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>メールアドレス</td>
+                                <td>{"UserBasicInfoClass::MAIL_ADDRESS"|constant}</td>
                                 <td></td>
-                                <td><input type="text" name="mailaddress"></td>
+                                <td><input type="text" name="mailAddress" placeholder="sample@sample.com"></td>
                             </tr>
                             <tr>
-                                <td>ユーザーid</td>
+                                <td>{"UserBasicInfoClass::MAIL_ADDRESS_AGAIN"|constant}</td>
+                                <td></td>
+                                <td><input type="text" name="mailAddressAgain" placeholder="sample@sample.com"></td>
+                            </tr>
+                            <tr>
+                                <td>{"UserBasicInfoClass::USER_ID"|constant}</td>
                                 <td></td>
                                 <td><input type="text" name="uid"></td>
                             </tr>
                             <tr>
-                                <td>パスワード</td>
+                                <td>{"UserBasicInfoClass::PASSWORD"|constant}</td>
                                 <td></td>
                                 <td><input type="password" name="password"></td>
                             </tr>
                             <tr>
-                                <td>パスワード(確認用)</td>
+                                <td>{"UserBasicInfoClass::PASSWORD_AGAIN"|constant}</td>
                                 <td></td>
-                                <td><input type="password" name="password2"></td>
+                                <td><input type="password" name="passwordAgain"></td>
                             </tr>
                             <tr>
-                                <td>登録コース</td>
+                                <td>{"UserBasicInfoClass::MEMBER_COURSE"|constant}</td>
                                 <td></td>
                                 <td>
                                     {foreach from=$memberCourseList item="value" key="key"}
@@ -76,11 +81,11 @@
                                 </td>
                             </tr>
                             <tr>
-                                <td>支払い方法</td>
+                                <td>{"UserBasicInfoClass::HOW_TO_PAY"|constant}</td>
                                 <td></td>
                                 <td>
                                     {foreach from=$payList item="value" key="key"}
-                                        <input type="radio" name="howtopay" value="{$key}">{$value}
+                                        <input type="radio" name="howToPay" value="{$key}">{$value}
                                     {/foreach}
                                 </td>
                             </tr>

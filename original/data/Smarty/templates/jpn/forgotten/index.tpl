@@ -4,7 +4,7 @@
 			<p>ご登録情報を入力して、ご入力いただいたメールアドレスに届いたメールからパスワードを変更してください。</p>
 		</div>
 		<div class="forgotten-content">
-			<form action="{$_FT_HTML_JPN_FORGOTTEN_PATH}complete.php" method="post">
+			<form action="{$smarty.const._FT_HTML_JPN_FORGOTTEN_PATH}complete.php" method="post">
 				<table>
                     <tr>
                         <td>名</td>

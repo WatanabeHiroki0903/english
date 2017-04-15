@@ -9,20 +9,6 @@ $smarty = new Smarty();
 $smarty->template_dir = _SMARTY_PATH.'templates';
 $smarty->compile_dir  = _SMARTY_PATH.'templates_c';
 
-$smarty->assign('_FT_CSS_PATH',                    _FT_CSS_PATH);
-$smarty->assign('_FT_IMAGES_LAYOUT_PATH',          _FT_IMAGES_LAYOUT_PATH);
-$smarty->assign('_FT_ALUBUM_ENG_PATH',             _FT_ALUBUM_ENG_PATH);
-$smarty->assign('_FT_ALUBUM_JPN_PATH',             _FT_ALUBUM_JPN_PATH);
-$smarty->assign('_FT_JS_PATH',                     _FT_JS_PATH);
-$smarty->assign('_FT_BOOTSTRAP_PATH',              _FT_BOOTSTRAP_PATH);
-
-$smarty->assign('_FT_HTML_JPN_PATH',               _FT_HTML_JPN_PATH);
-
-$smarty->assign('_FT_HTML_JPN_REGISTER_PATH',      _FT_HTML_JPN_REGISTER_PATH);
-$smarty->assign('_FT_HTML_JPN_MEMBERPAGE_PATH',    _FT_HTML_JPN_MEMBERPAGE_PATH);
-$smarty->assign('_FT_HTML_JPN_FORGOTTEN_PATH',     _FT_HTML_JPN_FORGOTTEN_PATH);
-$smarty->assign('_FT_HTML_JPN_ABOUT_PATH',         _FT_HTML_JPN_ABOUT_PATH);
-
 $smarty->display(_TEMPLATES_JPN_PATH.'header.tpl');
 
 

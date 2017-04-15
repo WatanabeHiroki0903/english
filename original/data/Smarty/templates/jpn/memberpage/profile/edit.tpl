@@ -1,7 +1,7 @@
     <div class="profile_area">
         {include file=$TPL}
         <div class="main_profile">
-            <form action="{$_FT_HTML_JPN_MEMBERPAGE_PATH}profile/" method="post">
+            <form action="{$smarty.const._FT_HTML_JPN_MEMBERPAGE_PATH}profile/" method="post">
                 <div class="main_profile_block">
                     <div class="profile_title">
                         <h1></h1>
