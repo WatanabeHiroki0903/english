@@ -3,41 +3,41 @@
 require_once('../requireTop.php');
 require_once(_CLASS_PATH.'userBasicInfoClass.php');
 require_once(_CLASS_PATH.'checkParamsClass.php');
+require_once(_CLASS_PATH.'smartyParamsClass.php');
 
 $userForm     = new UserBasicInfoClass();
 $checkParams  = new CheckParamsClass();
+$SPObject     = new SmartyParamsClass($smarty);
 
 try{
 
-    $errors = array();
-
     if(!isset($_POST)) throw new Exception('不正なページ移動です。');
 
-    $firstName        = $_POST['firstName'];
-    $lastName         = $_POST['lastName'];
-    $sex              = $_POST['sex'];
-    $year             = $_POST['year'];
-    $month            = $_POST['month'];
-    $day              = $_POST['day'];
-    $mailAddress      = $_POST['mailAddress'];
-    $mailAddressAgain = $_POST['mailAddress2'];
-    $uid              = $_POST['uid'];
-    $password         = $_POST['password'];
-    $passwordAgain    = $_POST['password2'];
-    $course           = $_POST['course'];
-    $howToPay         = $_POST['howToPay'];
+    $SPObject->params['firstName']        = $_POST['firstName'];
+    $SPObject->params['lastName']         = $_POST['lastName'];
+    $SPObject->params['sex']              = $_POST['sex'];
+    $SPObject->params['year']             = $_POST['year'];
+    $SPObject->params['month']            = $_POST['month'];
+    $SPObject->params['day']              = $_POST['day'];
+    $SPObject->params['mailAddress']      = $_POST['mailAddress'];
+    $SPObject->params['mailAddressAgain'] = $_POST['mailAddress2'];
+    $SPObject->params['uid']              = $_POST['uid'];
+    $SPObject->params['password']         = $_POST['password'];
+    $SPObject->params['passwordAgain']    = $_POST['password2'];
+    $SPObject->params['course']           = $_POST['course'];
+    $SPObject->params['howToPay']         = $_POST['howToPay'];
 
-    $errors['firstName']        = $checkParams->doFunc($userForm->FIRST_NAME,         $firstName,        array());
-    $errors['lastName']         = $checkParams->doFunc($userForm->LAST_NAME,          $lastName,         array());
-    $errors['sex']              = $checkParams->doFunc($userForm->SEX,                $sex,              array());
+    $checkParams->doFunc('firstName',        UserBasicInfoClass::FIRST_NAME,         $SPObject->params['firstName'],        array());
+    $checkParams->doFunc('lastName',         UserBasicInfoClass::LAST_NAME,          $SPObject->params['lastName'],         array());
+    $checkParams->doFunc('sex',              UserBasicInfoClass::SEX,                $SPObject->params['sex'],              array());
 
-    $errors['mailAddress']      = $checkParams->doFunc($userForm->MAIL_ADDRESS,       $mailAddress,      array());
-    $errors['mailAddressAgain'] = $checkParams->doFunc($userForm->MAIL_ADDRESS_AGAIN, $mailAddressAgain, array());
-    $errors['uid']              = $checkParams->doFunc($userForm->USER_ID,            $uid,              array());
-    $errors['password']         = $checkParams->doFunc($userForm->PASSWORD,           $password,         array());
-    $errors['passwordAgain']    = $checkParams->doFunc($userForm->PASSWORD_AGAIN,     $passwordAgain,    array());
-    $errors['course']           = $checkParams->doFunc($userForm->MEMBER_COURSE,      $course,           array());
-    $errors['howToPay']         = $checkParams->doFunc($userForm->HOW_TO_PAY,         $howToPay,         array());
+    $checkParams->doFunc('mailAddress',      UserBasicInfoClass::MAIL_ADDRESS,       $SPObject->params['mailAddress'],      array());
+    $checkParams->doFunc('mailAddressAgain', UserBasicInfoClass::MAIL_ADDRESS_AGAIN, $SPObject->params['mailAddressAgain'], array());
+    $checkParams->doFunc('uid',              UserBasicInfoClass::USER_ID,            $SPObject->params['uid'],              array());
+    $checkParams->doFunc('password',         UserBasicInfoClass::PASSWORD,           $SPObject->params['password'],         array());
+    $checkParams->doFunc('passwordAgain',    UserBasicInfoClass::PASSWORD_AGAIN,     $SPObject->params['passwordAgain'],    array());
+    $checkParams->doFunc('course',           UserBasicInfoClass::MEMBER_COURSE,      $SPObject->params['course'],           array());
+    $checkParams->doFunc('howToPay',         UserBasicInfoClass::HOW_TO_PAY,         $SPObject->params['howToPay'],         array());
 
 
 }catch(Exception $e){

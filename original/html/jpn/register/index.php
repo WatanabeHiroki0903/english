@@ -2,27 +2,20 @@
 
 require_once('../requireTop.php');
 require_once(_CLASS_PATH.'userBasicInfoClass.php');
+require_once(_CLASS_PATH.'smartyParamsClass.php');
 
-$userForm      = new UserBasicInfoClass();
+$userForm   = new UserBasicInfoClass();
+$SPObj      = new SmartyParamsClass($smarty);
 
-$sexList            = $userForm->getSexList();
-$memberCourseList   = $userForm->getMemberCourseList();
-$payList            = $userForm->getPayList();
+$SPObj->params['sexList']            = $userForm->getSexList();
+$SPObj->params['memberCourseList']   = $userForm->getMemberCourseList();
+$SPObj->params['payList']            = $userForm->getPayList();
 
-$yearList    = $userForm->getYearList();
-$monthList   = $userForm->getMonthList();
-$dayList     = $userForm->getDayList();
+$SPObj->params['yearList']    = $userForm->getYearList();
+$SPObj->params['monthList']   = $userForm->getMonthList();
+$SPObj->params['dayList']     = $userForm->getDayList();
 
-
-
-$smarty->assign('sexList',            $sexList);
-$smarty->assign('memberCourseList',   $memberCourseList);
-$smarty->assign('payList',            $payList);
-
-$smarty->assign('yearList',           $yearList);
-$smarty->assign('monthList',          $monthList);
-$smarty->assign('dayList',            $dayList);
-
+$SPObj->assignSmarty();
 
 $myPath = __FILE__;
 require_once('../requireLast.php');

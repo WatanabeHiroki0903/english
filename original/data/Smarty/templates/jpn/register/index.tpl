@@ -30,17 +30,17 @@
                                 <td></td>
                                 <td>
                                     <select name="year">
-                                        {foreach from=$yearList item="value"}
+                                        {foreach from=$smartyParams.yearList item="value"}
                                             <option value="{$value}">{$value}</option>
                                         {/foreach}
                                     </select>年
                                     <select name="month">
-                                        {foreach from=$monthList item="value"}
+                                        {foreach from=$smartyParams.monthList item="value"}
                                             <option value="{$value}">{$value}</option>
                                         {/foreach}
                                     </select>月
                                     <select name="day">
-                                        {foreach from=$dayList item="value"}
+                                        {foreach from=$smartyParams.dayList item="value"}
                                             <option value="{$value}">{$value}</option>
                                         {/foreach}
                                     </select>日
@@ -75,16 +75,16 @@
                                 <td>{"UserBasicInfoClass::MEMBER_COURSE"|constant}</td>
                                 <td></td>
                                 <td>
-                                    {foreach from=$memberCourseList item="value" key="key"}
+                                    {foreach from=$smartyParams.memberCourseList item="value" key="key"}
                                         <input type="radio" name="course" value="{$key}">{$value}
                                     {/foreach}
                                 </td>
                             </tr>
-                            <tr>
+                            <tr style="display:none;" class="premiumSelected">
                                 <td>{"UserBasicInfoClass::HOW_TO_PAY"|constant}</td>
                                 <td></td>
                                 <td>
-                                    {foreach from=$payList item="value" key="key"}
+                                    {foreach from=$smartyParams.payList item="value" key="key"}
                                         <input type="radio" name="howToPay" value="{$key}">{$value}
                                     {/foreach}
                                 </td>
@@ -96,3 +96,20 @@
         </form>
         </div>
         <div class="footer-space"></div>
+{literal}
+    <script>
+
+        $(function(){
+            $('input[name="course"]').on('change', function(){
+                var is_premium = $('input[value="2"]').is(':checked');
+                var howToPay = $('tr.premiumSelected');
+                if(is_premium){
+                    howToPay.show();
+                }else{
+                    howToPay.hide();
+                }
+            });
+        });
+
+    </script>
+{/literal}

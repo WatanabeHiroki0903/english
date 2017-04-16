@@ -6,46 +6,46 @@
                 <div class="touroku-area">
                         <table>
                             <tr>
-                                <td>名</td>
+                                <td>{"UserBasicInfoClass::FIRST_NAME"|constant}</td>
                                 <td></td>
-                                <td><p>akaakak</p></td>
+                                <td><p></p></td>
                             <tr>
-                                <td>姓</td>
+                                <td>{"UserBasicInfoClass::LAST_NAME"|constant}</td>
                                 <td></td>
                                 <td><p>fhaijwkl</p></td>
                             </tr>
                             <tr>
-                                <td>性別</td>
+                                <td>{"UserBasicInfoClass::SEX"|constant}</td>
                                 <td></td>
                                 <td><p>hjkl</p></td>
                             </tr>
                             <tr>
-                                <td>生年月日</td>
+                                <td>{"UserBasicInfoClass::BIRTHDAY"|constant}</td>
                                 <td></td>
                                 <td><p>fhuijk</p></td>
                             </tr>
                             <tr>
-                                <td>メールアドレス</td>
+                                <td>{"UserBasicInfoClass::MAIL_ADDRESS"|constant}</td>
                                 <td></td>
                                 <td><p>iujkl</p></td>
                             </tr>
                             <tr>
-                                <td>ユーザーid</td>
+                                <td>{"UserBasicInfoClass::USER_ID"|constant}</td>
                                 <td></td>
                                 <td><p>hjkl</p></td>
                             </tr>
                             <tr>
-                                <td>パスワード</td>
+                                <td>{"UserBasicInfoClass::PASSWORD"|constant}</td>
                                 <td></td>
                                 <td><p>ghkj</p></td>
                             </tr>
                             <tr>
-                                <td>登録コース</td>
+                                <td>{"UserBasicInfoClass::MEMBER_COURSE"|constant}</td>
                                 <td></td>
                                 <td><p>ghkjl</p></td>
                             </tr>
                             <tr>
-                                <td>支払い方法</td>
+                                <td>{"UserBasicInfoClass::HOW_TO_PAY"|constant}</td>
                                 <td></td>
                                 <td><p>jkl</p></td>
                             </tr>
