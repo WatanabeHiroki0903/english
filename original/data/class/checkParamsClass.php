@@ -32,4 +32,24 @@ class CheckParamsClass{
 
     }
 
+    public function getMode(){
+
+        $mode  = "";
+
+        if($_SERVER['REQUEST_METHOD'] !== 'POST'){
+            $mode = 'first';
+        }else{
+            if($_SESSION['token'] == $_POST['token']){
+                $mode = $_POST['mode'];
+            }else{
+                $mode = 'error';
+            }
+
+            unset($_SESSION['token']);
+        }
+
+        return $mode;
+    }
+
+
 }

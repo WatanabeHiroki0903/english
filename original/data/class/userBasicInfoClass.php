@@ -93,5 +93,15 @@ class UserBasicInfoClass{
 
         return $dayList;
     }
+    public static function is_selected($optVal, $postVal){
+        if($optVal == $postVal){
+            echo 'selected';
+        }
+    }
 
+    public static function is_checked($optVal, $postVal){
+        if ($optVal == $postVal) {
+            echo 'checked';
+        }
+    }
 }

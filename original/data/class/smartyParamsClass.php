@@ -11,8 +11,10 @@ class SmartyParamsClass{
         $this->smartyObj = $smarty;
     }
 
-    public function setParam($name,$val){
-        $this->params[$name] = $val;
+    public function setParam($arr){
+        foreach($arr as $key => $val){
+            $this->params[$key] = $val;
+        }
     }
 
     public function getParam($keyname){
